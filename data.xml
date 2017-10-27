@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<table>
+  <row>
+    <id>1</id>
+    <text>linux</text>
+    <parent_id>0</parent_id>
+  </row>
+  <row>
+    <id>2</id>
+    <text>lubuntu</text>
+    <parent_id>1</parent_id>
+  </row>
+  <row>
+    <id>3</id>
+    <text>puppy linux</text>
+    <parent_id>1</parent_id>
+  </row>
+  <row>
+    <id>4</id>
+    <text>mount google drive as local file system</text>
+    <parent_id>2</parent_id>
+  </row>
+  <row>
+    <id>5</id>
+    <text>google-drive-ocamlfuse ~/googledrive</text>
+    <parent_id>4</parent_id>
+  </row>
+  <row>
+    <id>6</id>
+    <text>mount ftp as local file system</text>
+    <parent_id>2</parent_id>
+  </row>
+  <row>
+    <id>7</id>
+    <text>curlftpfs b22_14398680:password_here@ftp.byethost22.com byet</text>
+    <parent_id>6</parent_id>
+  </row>
+  <row>
+    <id>8</id>
+    <text>windoze</text>
+    <parent_id>0</parent_id>
+  </row>
+</table>
